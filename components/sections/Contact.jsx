@@ -49,7 +49,7 @@ export default function Contact() {
     <section id="contact" className="section-y relative overflow-hidden bg-ember">
       <div className="pointer-events-none absolute -right-40 -top-40 h-[40rem] w-[40rem] rounded-full bg-rani/20 blur-[120px]" />
       <div className="container-x relative grid gap-12 lg:grid-cols-12">
-        <Reveal className="lg:col-span-6">
+        <Reveal className="min-w-0 lg:col-span-6">
           <span className="eyebrow">{c.eyebrow}</span>
           <h2 className="mt-4 font-display text-display font-light">{c.title}</h2>
           <p className="mt-4 max-w-md text-sand">{c.text}</p>
@@ -60,18 +60,18 @@ export default function Contact() {
           </ul>
         </Reveal>
 
-        <Reveal delay={0.1} className="lg:col-span-6">
-          <form onSubmit={submit} noValidate className="glass flex flex-col gap-4 rounded-[2rem] p-6 md:p-9">
-            <input value={data.name} onChange={set("name")} placeholder="Your name" aria-label="Name" className={`field ${errors.name ? "field-error" : ""}`} />
-            <input value={data.phone} onChange={set("phone")} type="tel" placeholder="WhatsApp number" aria-label="Phone" className={`field ${errors.phone ? "field-error" : ""}`} />
-            <div className="grid gap-4 sm:grid-cols-2">
-              <select value={data.eventType} onChange={set("eventType")} aria-label="Event type" className={`field ${errors.eventType ? "field-error" : ""}`}>
+        <Reveal delay={0.1} className="min-w-0 lg:col-span-6">
+          <form onSubmit={submit} noValidate className="glass flex w-full min-w-0 flex-col gap-4 rounded-[2rem] p-4 sm:p-6 md:p-9">
+            <input value={data.name} onChange={set("name")} placeholder="Your name" aria-label="Name" className={`field min-w-0 text-base ${errors.name ? "field-error" : ""}`} />
+            <input value={data.phone} onChange={set("phone")} type="tel" placeholder="WhatsApp number" aria-label="Phone" className={`field min-w-0 text-base ${errors.phone ? "field-error" : ""}`} />
+            <div className="grid min-w-0 gap-4 sm:grid-cols-2">
+              <select value={data.eventType} onChange={set("eventType")} aria-label="Event type" className={`field min-w-0 text-base ${errors.eventType ? "field-error" : ""}`}>
                 <option value="" disabled>Event type</option>
                 {content.events.map((o) => <option key={o.value} value={o.value}>{o.label}</option>)}
               </select>
-              <input type="date" min={today} value={data.date} onChange={set("date")} aria-label="Event date" className={`field ${errors.date ? "field-error" : ""}`} />
+              <input type="date" min={today} value={data.date} onChange={set("date")} aria-label="Event date" className={`field min-w-0 text-base ${errors.date ? "field-error" : ""}`} />
             </div>
-            <textarea rows={3} value={data.message} onChange={set("message")} placeholder="Theme, venue or anything else (optional)" aria-label="Message" className="field resize-none" />
+            <textarea rows={3} value={data.message} onChange={set("message")} placeholder="Theme, venue or anything else (optional)" aria-label="Message" className="field min-w-0 resize-none text-base" />
             <button type="submit" className="btn-rani w-full"><Send size={16} /> {c.submit}</button>
             <AnimatePresence>
               {sent && (

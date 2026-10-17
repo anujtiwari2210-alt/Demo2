@@ -10,7 +10,7 @@ import Image from "next/image";
 export default function Media({ src, alt, className = "", imgClassName = "", sizes = "100vw", priority = false }) {
   const [failed, setFailed] = useState(false);
   return (
-    <div className={`relative overflow-hidden bg-gradient-to-br from-rani/40 via-coal to-marigold/30 ${className}`}>
+    <div className={`overflow-hidden bg-gradient-to-br from-rani/40 via-coal to-marigold/30 ${className}`}>
       {!failed && (
         <Image src={src} alt={alt} fill sizes={sizes} priority={priority} onError={() => setFailed(true)} className={`object-cover ${imgClassName}`} />
       )}

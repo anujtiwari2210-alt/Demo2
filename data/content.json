@@ -30,12 +30,12 @@
     "eyebrow": "What we create",
     "title": "Six ways we turn a venue into a story",
     "items": [
-      { "title": "Wedding Mandap & Stage", "text": "Carved, floral and acrylic mandaps built to your ritual and venue.", "image": "/images/services/s1.jpg", "eventType": "wedding" },
-      { "title": "Sangeet & Cocktail Nights", "text": "Stage, dance floor, lounge zones and show lighting.", "image": "/images/services/s2.jpg", "eventType": "reception" },
-      { "title": "Haldi & Mehndi", "text": "Marigold walls, swings, brass urlis and boho seating.", "image": "/images/services/s3.jpg", "eventType": "haldi_mehndi" },
-      { "title": "Reception & Gala", "text": "Floral walls, chandeliers and statement couple thrones.", "image": "/images/services/s4.jpg", "eventType": "reception" },
-      { "title": "Entrances & Venue Styling", "text": "Tunnels, gates, photo walls and table centerpieces.", "image": "/images/services/s5.jpg", "eventType": "wedding" },
-      { "title": "Birthdays, Corporate & Private Events", "text": "Theme concepts, backdrops and full-venue transformations.", "image": "/images/services/s6.jpg", "eventType": "birthday" }
+      { "title": "Wedding Mandap & Stage", "text": "Carved, floral and acrylic mandaps built to your ritual and venue.", "image": "/images/Opulent Floral Wedding Mandap.png", "eventType": "wedding" },
+      { "title": "Sangeet & Cocktail Nights", "text": "Stage, dance floor, lounge zones and show lighting.", "image": "/images/Luxurious Indian Sangeet Stage Celebration.png", "eventType": "reception" },
+      { "title": "Haldi & Mehndi", "text": "Marigold walls, swings, brass urlis and boho seating.", "image": "/images/Vibrant Haldi Garden Swing Décor.png", "eventType": "haldi_mehndi" },
+      { "title": "Reception & Gala", "text": "Floral walls, chandeliers and statement couple thrones.", "image": "/images/Opulent Golden Floral Wedding Stage.png", "eventType": "reception" },
+      { "title": "Entrances & Venue Styling", "text": "Tunnels, gates, photo walls and table centerpieces.", "image": "/images/Opulent Floral Wedding Corridor.png", "eventType": "wedding" },
+      { "title": "Birthdays, Corporate & Private Events", "text": "Theme concepts, backdrops and full-venue transformations.", "image": "/images/Dreamy Blush Garden Celebration.png", "eventType": "birthday" }
     ],
     "chipsTitle": "Also included in every project",
     "chips": ["Fresh floral design", "Draping & fabric", "Lighting & LED", "Furniture rental", "Entrance gates", "Table centerpieces", "Home & car decoration", "On-site supervision"]
@@ -45,21 +45,21 @@
     "title": "Recent work, up close",
     "hint": "Scroll to explore",
     "items": [
-      { "title": "The Gilded Mandap", "tag": "Wedding", "meta": "800 guests • 2 days", "image": "/images/work/w1.jpg" },
-      { "title": "Marigold Courtyard", "tag": "Haldi", "meta": "250 guests • Day event", "image": "/images/work/w2.jpg" },
-      { "title": "Orchid & Crystal Stage", "tag": "Reception", "meta": "500 guests • Banquet", "image": "/images/work/w3.jpg" },
-      { "title": "Tuberose Canopy Walk", "tag": "Entrance", "meta": "1,000 guests • Lawn", "image": "/images/work/w4.jpg" },
-      { "title": "Midnight Sangeet", "tag": "Sangeet", "meta": "400 guests • Resort", "image": "/images/work/w5.jpg" }
+      { "title": "The Gilded Mandap", "tag": "Wedding", "meta": "800 guests • 2 days", "image": "/images/Opulent Palace Wedding Mandap.png" },
+      { "title": "Marigold Courtyard", "tag": "Haldi", "meta": "250 guests • Day event", "image": "/images/Vibrant Haldi Garden Swing Décor.png" },
+      { "title": "Orchid & Crystal Stage", "tag": "Reception", "meta": "500 guests • Banquet", "image": "/images/Opulent Golden Floral Wedding Stage.png" },
+      { "title": "Tuberose Canopy Walk", "tag": "Entrance", "meta": "1,000 guests • Lawn", "image": "/images/Opulent Floral Wedding Corridor.png" },
+      { "title": "Midnight Sangeet", "tag": "Sangeet", "meta": "400 guests • Resort", "image": "/images/Luxurious Indian Sangeet Stage Celebration.png" }
     ]
   },
   "styles": {
     "eyebrow": "Style directions",
     "title": "Pick a mood. We build the world around it.",
     "items": [
-      { "name": "Royal Heritage", "text": "Carved jaalis, brass, marigold and gold. The grandeur of Awadhi palaces, rebuilt for your venue.", "ideal": "Haveli, palace and heritage venues", "tags": ["Jaali screens", "Brass & gold", "Marigold"], "image": "/images/styles/royal.jpg" },
-      { "name": "Floral Forest", "text": "Suspended floral chandeliers and living canopies that make a lawn feel like a woodland.", "ideal": "Lawns, resorts and day weddings", "tags": ["Floral chandeliers", "Greenery", "Soft light"], "image": "/images/styles/forest.jpg" },
-      { "name": "Modern Acrylic", "text": "Transparent mandaps, floating water features and clean LED lines for a sleek contemporary look.", "ideal": "Banquets and modern couples", "tags": ["Acrylic", "Water", "LED"], "image": "/images/styles/acrylic.jpg" },
-      { "name": "Midnight Glam", "text": "Draped velvet, candelabras and cinematic lighting. Made for sangeets and receptions.", "ideal": "Night events and cocktail evenings", "tags": ["Drapery", "Candlelight", "Show lighting"], "image": "/images/styles/glam.jpg" }
+      { "name": "Royal Heritage", "text": "Carved jaalis, brass, marigold and gold. The grandeur of Awadhi palaces, rebuilt for your venue.", "ideal": "Haveli, palace and heritage venues", "tags": ["Jaali screens", "Brass & gold", "Marigold"], "image": "/images/Opulent Palace Wedding Mandap.png" },
+      { "name": "Floral Forest", "text": "Suspended floral chandeliers and living canopies that make a lawn feel like a woodland.", "ideal": "Lawns, resorts and day weddings", "tags": ["Floral chandeliers", "Greenery", "Soft light"], "image": "/images/Golden Garden Wedding Stage.png" },
+      { "name": "Modern Acrylic", "text": "Transparent mandaps, floating water features and clean LED lines for a sleek contemporary look.", "ideal": "Banquets and modern couples", "tags": ["Acrylic", "Water", "LED"], "image": "/images/Dreamy Blush Garden Celebration (1).png" },
+      { "name": "Midnight Glam", "text": "Draped velvet, candelabras and cinematic lighting. Made for sangeets and receptions.", "ideal": "Night events and cocktail evenings", "tags": ["Drapery", "Candlelight", "Show lighting"], "image": "/images/Luxurious Indian Sangeet Stage Celebration.png" }
     ]
   },
   "packages": {

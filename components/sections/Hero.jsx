@@ -8,6 +8,7 @@ import content from "@/data/content.json";
 import { waLink } from "@/lib/helpers";
 import { EASE_LUXE } from "@/lib/motion";
 import { useIntroReady } from "../Intro";
+import { FaWhatsapp } from "react-icons/fa";
 
 const h = content.hero;
 
@@ -76,7 +77,7 @@ export default function Hero() {
         <motion.div initial={{ opacity: 0, y: 20 }} animate={ready ? { opacity: 1, y: 0 } : {}} transition={{ delay: 0.95, duration: 0.9 }} className="mt-8 flex flex-wrap gap-3">
           <a href="#estimate" className="btn-fill">{h.primaryCta}</a>
           <a href={waLink(constants.whatsappMessages.consult)} target="_blank" rel="noopener noreferrer" className="btn-line">
-            <MessageCircle size={16} className="text-[#25D366]" /> {h.secondaryCta}
+            <FaWhatsapp size={16} className="text-[#25D366]" /> {h.secondaryCta}
           </a>
         </motion.div>
 

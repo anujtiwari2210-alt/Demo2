@@ -7,6 +7,7 @@ import constants from "@/data/constants.json";
 import content from "@/data/content.json";
 import { waLink } from "@/lib/helpers";
 import Reveal from "../ui/Reveal";
+import { FaWhatsapp } from "react-icons/fa";
 
 const e = content.estimator;
 
@@ -87,7 +88,7 @@ export default function Estimator() {
               <p className="mt-2 text-xs text-sand">{e.disclaimer}</p>
             </div>
 
-            <a href={waLink(msg)} target="_blank" rel="noopener noreferrer" className="btn-fill w-full"><MessageCircle size={18} /> {e.cta}</a>
+            <a href={waLink(msg)} target="_blank" rel="noopener noreferrer" className="btn-fill w-full"><FaWhatsapp size={18} /> {e.cta}</a>
           </div>
         </Reveal>
       </div>
